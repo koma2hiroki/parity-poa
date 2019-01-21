@@ -10,8 +10,8 @@ apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc
 [websockets]
 port = 8551
 [account]
-unlock = ["0xfb1719eb4f531a51fea2502f300ebd23f4d80f6f"]
+unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["node.pwds"]
 [mining]
-engine_signer = "0x744da66f21b4b099918bedf8dc8b8c23543d135d"
+engine_signer = "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
 reseal_on_txs = "none"
