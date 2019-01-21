@@ -3,6 +3,7 @@ chain = "demo.json"
 base_path = "/mnt/GethExt/data/"
 [network]
 port = 30301
+bootnodes = ["enode://cc63447f867f1206007ca719d4faa2f1954bd4363b11c1605fa2b4b7d26eed334ca90811faa5590ec35801a0dc17a75ceca1b9ae5d564c899f0067ce761d348d@172.50.10.10:30300", "enode://c54e20cbd8af0e73d59d35868a3d53734d19edb21a8805da07121e8b72bc2ab9afbf73a0275f9ddeb3a0b44fed5a1fc1fadc37f4aa252b6c8ad8d212616eb65f@172.50.11.11:30301"]
 [rpc]
 port = 8541
 interface = "0.0.0.0"
