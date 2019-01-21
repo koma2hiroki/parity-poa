@@ -1,6 +1,6 @@
 [parity]
 chain = "demo.json"
-base_path = "/mnt/ParityExt/data/"
+base_path = "/mnt/GethExt/data/"
 [network]
 port = 30301
 [rpc]
@@ -13,5 +13,5 @@ port = 8551
 unlock = ["0xfb1719eb4f531a51fea2502f300ebd23f4d80f6f"]
 password = ["node.pwds"]
 [mining]
-engine_signer = "0x2cce318e140cbf544619e0df1dc2ae3bf33e8a7d"
+engine_signer = "0x744da66f21b4b099918bedf8dc8b8c23543d135d"
 reseal_on_txs = "none"

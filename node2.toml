@@ -2,16 +2,16 @@
 chain = "demo.json"
 base_path = "/mnt/GethExt/data/"
 [network]
-port = 30300
+port = 30302
 [rpc]
-port = 8540
+port = 8542
 interface = "0.0.0.0"
 apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
 [websockets]
-port = 8550
+port = 8552
 [account]
-unlock = ["0x2404f4eb56fbd3e1a7f65c79312eb384a5eab287"]
+unlock = ["0xfb1719eb4f531a51fea2502f300ebd23f4d80f6f"]
 password = ["node.pwds"]
 [mining]
-engine_signer = "0x1bf78d039daacf5d097779f9cbf5427c67f66a20"
+engine_signer = "0x744da66f21b4b099918bedf8dc8b8c23543d135d"
 reseal_on_txs = "none"
