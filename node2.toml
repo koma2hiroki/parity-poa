@@ -1,6 +1,6 @@
 [parity]
 chain = "demo.json"
-base_path = "/mnt/GethExt/data/"
+base_path = "/mnt/GethExt/data"
 [network]
 port = 30302
 [rpc]
