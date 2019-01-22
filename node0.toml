@@ -5,7 +5,7 @@ base_path = "/mnt/GethExt/data"
 port = 30300
 reserved_peers = "peers.txt"
 min_peers = 10
-max_peers = 10g
+max_peers = 10
 [rpc]
 port = 8540
 interface = "all"
