@@ -3,7 +3,7 @@ chain = "demo.json"
 base_path = "/mnt/GethExt/data"
 [network]
 port = 30300
-bootnodes = [""]
+reserved_peers = "peers.txt"
 [rpc]
 port = 8540
 interface = "0.0.0.0"
