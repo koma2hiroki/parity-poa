@@ -4,10 +4,11 @@ base_path = "/mnt/GethExt/data"
 [network]
 port = 30302
 reserved_peers = "peers.txt"
-max_peers = 10
+min_peers = 3
+max_peers = 3
 [rpc]
 port = 8542
-interface = "0.0.0.0"
+interface = "all"
 apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
 [websockets]
 port = 8552
