@@ -6,7 +6,8 @@
                 "stepDuration": "1",
                 "validators" : {
 								    "list": [
-                        "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
+                        "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333",
+                        "0x2b2eb1d229790d3e7a98d376d77f5bf71e6373ff"
                     ]
 								},
                 "maximumUncleCount": 1000000000

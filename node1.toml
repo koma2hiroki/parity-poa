@@ -4,8 +4,8 @@ base_path = "/mnt/GethExt/data"
 [network]
 port = 30301
 reserved_peers = "peers.txt"
-min_peers = 3
-max_peers = 3
+min_peers = 10
+max_peers = 10
 [rpc]
 port = 8541
 interface = "all"
@@ -16,6 +16,7 @@ port = 8551
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["node.pwds"]
 [mining]
-engine_signer = "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
+engine_signer = "0x2b2eb1d229790d3e7a98d376d77f5bf71e6373ff"
 reseal_on_txs = "none"
 usd_per_tx = "0"
+# 0x2b2eb1d229790d3e7a98d376d77f5bf71e6373ff
