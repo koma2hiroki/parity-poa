@@ -2,6 +2,7 @@
   "name": "token-test",
   "version": "0.0.1",
   "scripts": {
+    "console": "./node_modules/.bin/truffle console",
     "migratedev": "./node_modules/.bin/truffle migrate --network dev"
   },
   "devDependencies": {
