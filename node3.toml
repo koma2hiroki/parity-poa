@@ -1,5 +1,5 @@
 [parity]
-chain = "demo.json"
+chain = "spec.json"
 base_path = "/mnt/GethExt/data"
 [network]
 port = 30300

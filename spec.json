@@ -1,5 +1,5 @@
 {
-    "name": "DemoPoA",
+    "name": "PrivateChain",
     "engine": {
         "authorityRound": {
             "params": {
