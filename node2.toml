@@ -16,6 +16,6 @@ port = 8552
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["node.pwds"]
 [mining]
-engine_signer = "0x4dd35fb1269a2022c8d9e58e1592ab5670f77d53"
+engine_signer = "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
 reseal_on_txs = "none"
 usd_per_tx = "0"
