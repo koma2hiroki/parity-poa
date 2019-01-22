@@ -6,10 +6,10 @@
                 "stepDuration": "1",
                 "validators" : {
 								    "list": [
-                      "0x2729ab12d47c7cc8f572a4357b4e8766adcb4ca9",
-                      "0x2729ab12d47c7cc8f572a4357b4e8766adcb4ca9",
-                      "0x2729ab12d47c7cc8f572a4357b4e8766adcb4ca9",
-                      "0x2729ab12d47c7cc8f572a4357b4e8766adcb4ca9"
+                      "0x1370ef61456dcfdc3b660c70a92d8b1e96158341",
+                      "0x1bc548d2daf5d426086204613be09cb8a1b7d3cb",
+                      "0x4dd35fb1269a2022c8d9e58e1592ab5670f77d53",
+                      "0xea890d7a67e2638ea65e7db4799ff562ef09d424"
                     ]
 								},
                 "maximumUncleCount": 1000000000
