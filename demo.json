@@ -10,7 +10,6 @@
                         "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
                     ]
 								},
-        				"blockReward": "10",
         				"immediateTransitions": true,
         				"emptyStepsTransition": "1",
         				"maximumEmptySteps": "2"
