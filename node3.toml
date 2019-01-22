@@ -4,6 +4,11 @@ base_path = "/mnt/GethExt/data"
 [network]
 port = 30303
 reserved_peers = "peers.txt"
+max_peers = 10
+# Prepare a block to seal even when there are no miners connected.
+force_sealing = true
+# Force the node to author new blocks when a new uncle block is imported.
+reseal_on_uncle = true
 [rpc]
 port = 8543
 interface = "0.0.0.0"
