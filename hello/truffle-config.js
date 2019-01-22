@@ -7,7 +7,7 @@ module.exports = {
     },
     dev: {
       host: "127.0.0.1",
-      port: "30300",
+      port: "8540",
       network_id: "*"
     }
   }
