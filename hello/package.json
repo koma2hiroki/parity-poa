@@ -2,7 +2,7 @@
   "name": "token-test",
   "version": "0.0.1",
   "scripts": {
-    "migrate": "./node_modules/.bin/truffle migrate"
+    "migratedev": "./node_modules/.bin/truffle migrate --network dev"
   },
   "devDependencies": {
     "truffle": "4.1.14"
