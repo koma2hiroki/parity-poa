@@ -10,13 +10,11 @@ discovery = false
 [rpc]
 port = 8540
 interface = "all"
-cors = ["all"]
 apis = ["all"]
 [websockets]
 port = 8550
 interface = "all"
 apis = ["all"]
-max_connections = 99999
 [account]
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["node.pwds"]
@@ -25,4 +23,4 @@ engine_signer = "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
 reseal_on_txs = "none"
 usd_per_tx = "0"
 [misc]
-log_file = "/mnt/GethExt/log/parity.log"
+log_file = "/mnt/GethExt/log/parity2.log"
