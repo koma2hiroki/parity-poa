@@ -9,7 +9,7 @@ max_peers = 10
 discovery = false
 [rpc]
 port = 8540
-interface = ["172.50.10.10", "172.51.10.10"]
+interface = "172.0.0.0"
 cors = ["all"]
 apis = ["all"]
 [websockets]
