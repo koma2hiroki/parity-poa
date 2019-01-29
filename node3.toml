@@ -3,13 +3,14 @@ chain = "spec.json"
 base_path = "/mnt/GethExt/data"
 [network]
 port = 30300
+id = 34661
 reserved_peers = "peers.txt"
 min_peers = 10
 max_peers = 10
 discovery = false
 [rpc]
 port = 8540
-interface = "all"
+interface = "172.0.0.0"
 cors = ["all"]
 apis = ["all"]
 [websockets]
