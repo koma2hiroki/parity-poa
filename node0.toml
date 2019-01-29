@@ -3,6 +3,10 @@ chain = "spec.json"
 base_path = "/mnt/GethExt/data"
 [network]
 port = 30300
+reserved_peers = "peers.txt"
+min_peers = 10
+max_peers = 10
+discovery = false
 [rpc]
 port = 8540
 apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
