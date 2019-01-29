@@ -9,6 +9,19 @@ max_peers = 10
 discovery = false
 [rpc]
 port = 8540
-apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+cors = ["all"]
+apis = ["all"]
 [websockets]
-port = 8450
+port = 8550
+interface = "all"
+apis = ["all"]
+max_connections = 99999
+[account]
+unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
+password = ["node.pwds"]
+[mining]
+engine_signer = "0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"
+reseal_on_txs = "none"
+usd_per_tx = "0"
+[misc]
+log_file = "/mnt/GethExt/log/parity.log"
