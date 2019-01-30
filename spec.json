@@ -6,9 +6,9 @@
                 "stepDuration": "1",
                 "validators" : {
 								    "list": [
-                      "0x0413726f6df759bd0a70ad9f4204462108242510",
-                      "0xaa10bcec76aa22b54df242c04b57cafd66b12b77",
-                      "0x5318d5b9813a38b084bdddc20626ca4a3af30509"
+                      "0x931acd405ecc04f2593e77fb2541f4b37a3f97b4",
+                      "0xf24063406d3aa86bf9f36ae8c80da9ac838ff791",
+                      "0xe36d7a2450a5a30ac933496ef2e60f8cf58fb277"
                     ]
 								}
             }
