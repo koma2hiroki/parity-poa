@@ -8,6 +8,7 @@ id = 34661
 min_peers = 1
 max_peers = 1
 discovery = false
+# allow_ips = "private"
 [rpc]
 port = 8540
 interface = "all"

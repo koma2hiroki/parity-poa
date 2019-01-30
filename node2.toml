@@ -8,16 +8,17 @@ reserved_peers = "peers.txt"
 min_peers = 10
 max_peers = 10
 discovery = false
+# allow_ips = "private"
 [rpc]
 port = 8540
 interface = "all"
-cors = ["all"]
+# cors = ["all"]
 apis = ["all"]
 [websockets]
 port = 8550
 interface = "all"
 apis = ["all"]
-max_connections = 99999
+max_connections = 999999
 [account]
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["poa.pwds"]
