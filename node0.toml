@@ -5,8 +5,8 @@ base_path = "/mnt/GethExt/data"
 port = 30300
 id = 34661
 reserved_peers = "peers.txt"
-min_peers = 10
-max_peers = 10
+min_peers = 3
+max_peers = 3
 discovery = false
 # allow_ips = "private"
 [rpc]
