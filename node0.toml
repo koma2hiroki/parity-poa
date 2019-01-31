@@ -23,7 +23,7 @@ max_connections = 999999
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["poa.pwds"]
 [mining]
-engine_signer = "0x952c92ea14bb7bf752655736a83697c624f9f079"
+engine_signer = "0x4c0887c98165d62f12db9f9cc8c96c141e697a7c"
 reseal_on_txs = "none"
 usd_per_tx = "0"
 [misc]
