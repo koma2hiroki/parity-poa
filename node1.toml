@@ -12,7 +12,7 @@ discovery = false
 [rpc]
 port = 8540
 interface = "all"
-# cors = ["all"]
+cors = ["all"]
 apis = ["all"]
 [websockets]
 port = 8550
