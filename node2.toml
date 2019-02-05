@@ -1,7 +1,7 @@
 [parity]
 chain = "spec.json"
 base_path = "/mnt/GethExt/data"
-keys_path = "./account/"
+keys_path = "./account/node2/"
 [network]
 port = 30300
 id = 34661
