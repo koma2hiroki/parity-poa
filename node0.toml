@@ -19,7 +19,7 @@ apis = ["all"]
 port = 8550
 interface = "all"
 apis = ["all"]
-max_connections = 10
+max_connections = 9999999
 [account]
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["poa.pwds"]
