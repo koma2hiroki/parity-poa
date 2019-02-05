@@ -9,3 +9,5 @@ build/
 
 # mac
 .DS_Store/
+
+local/data/*

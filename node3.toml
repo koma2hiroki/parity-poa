@@ -1,6 +1,7 @@
 [parity]
 chain = "spec.json"
 base_path = "/mnt/GethExt/data"
+keys_path = "./account/"
 [network]
 port = 30300
 id = 34661
@@ -18,7 +19,7 @@ apis = ["all"]
 port = 8550
 interface = "all"
 apis = ["all"]
-max_connections = 100
+max_connections = 9999
 [account]
 unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["poa.pwds"]
