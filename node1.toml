@@ -28,5 +28,13 @@ force_sealing = false
 engine_signer = "0x6a9a8309a6c0d8751f438d947c2ad93a055126cf"
 reseal_on_txs = "none"
 usd_per_tx = "0"
+# gas_floor_target = "4700000"
+tx_queue_size = 16384
+tx_queue_mem_limit = 1024
+[footprint]
+cache_size_db = 256
+cache_size_blocks = 256
+cache_size_queue = 256
+cache_size_state = 256
 [misc]
 log_file = "/mnt/GethExt/log/parity.log"
