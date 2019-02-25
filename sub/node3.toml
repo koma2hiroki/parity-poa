@@ -1,6 +1,6 @@
 [parity]
 chain = "spec.json"
-base_path = "/mnt//data"
+base_path = "/mnt/ParityExt/data"
 keys_path = "./account/node3/"
 [network]
 port = 30300
@@ -36,4 +36,4 @@ cache_size_blocks = 256
 cache_size_queue = 256
 cache_size_state = 256
 [misc]
-log_file = "/mnt//log/parity.log"
+log_file = "/mnt/ParityExt/log/parity.log"
