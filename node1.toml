@@ -1,6 +1,6 @@
 [parity]
 chain = "spec.json"
-base_path = "/mnt/GethExt/data"
+base_path = "/mnt//data"
 keys_path = "./account/node1/"
 [network]
 port = 30300
@@ -37,4 +37,4 @@ cache_size_blocks = 256
 cache_size_queue = 256
 cache_size_state = 256
 [misc]
-log_file = "/mnt/GethExt/log/parity.log"
+log_file = "/mnt//log/parity.log"

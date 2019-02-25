@@ -1,7 +1,7 @@
 [parity]
 chain = "spec.json"
 base_path = "/mnt//data"
-keys_path = "./account/node2/"
+keys_path = "./account/node1/"
 [network]
 port = 30300
 id = 34661
@@ -9,7 +9,7 @@ reserved_peers = "peers.txt"
 min_peers = 3
 max_peers = 3
 discovery = false
-# allow_ips = "private"
+allow_ips = "private"
 [rpc]
 port = 8540
 interface = "all"
@@ -25,10 +25,9 @@ unlock = ["0x8b8d89a8d65031f56f2802386cb9dc1db66d2333"]
 password = ["poa.pwds"]
 [mining]
 force_sealing = false
-engine_signer = "0xaf7a33d4d902a004d261ae6182d620cce4e17e36"
+engine_signer = "0x6a9a8309a6c0d8751f438d947c2ad93a055126cf"
 reseal_on_txs = "none"
 usd_per_tx = "0"
-# gas_floor_target = "4700000"
 tx_queue_size = 16384
 tx_queue_mem_limit = 1024
 [footprint]
